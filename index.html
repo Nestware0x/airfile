@@ -5,7 +5,26 @@
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>エアファイル便 - かんたんP2Pファイル共有</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="ブラウザだけで動く、AirDropのようなP2Pファイル共有サービス「エアファイル便」。アカウント不要、インストール不要で、その場ですぐに誰とでも安全にファイルを送受信できます。WebRTC技術で高速・安全な転送を実現。" />
+    <meta name="keywords" content="ファイル共有, P2P, AirDrop, エアファイル便, WebRTC, ファイル転送, ブラウザ, 安全, 暗号化, アカウント不要" />
+    <meta name="author" content="Nestware" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="エアファイル便 - かんたん・安全なP2Pファイル共有" />
+    <meta property="og:description" content="ブラウザだけで使えるAirDropのようなファイル共有。アカウント不要で、その場ですぐに誰とでも安全にファイルを送受信できます。" />
+    <meta property="og:site_name" content="エアファイル便" />
+    <meta property="og:locale" content="ja_JP" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="エアファイル便 - かんたん・安全なP2Pファイル共有" />
+    <meta name="twitter:description" content="ブラウザだけで使えるAirDropのようなファイル共有。アカウント不要で、その場ですぐに誰とでも安全にファイルを送受信できます。" />
+
     <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
     <script>
       tailwind.config = {
         theme: {
@@ -37,8 +56,23 @@
       }
     </script>
 
+    <!-- JSON-LD Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebApplication",
+      "name": "エアファイル便",
+      "description": "ブラウザだけで動く、AirDropのようなP2Pファイル共有サービスです。アカウント不要、インストール不要で、その場ですぐに誰とでも安全にファイルを送受信できます。",
+      "applicationCategory": "ProductivityApplication",
+      "operatingSystem": "Any",
+      "offers": {
+        "@type": "Offer",
+        "price": "0"
+      }
+    }
+    </script>
 <link rel="stylesheet" href="/index.css">
-  <script type="importmap">
+    <script type="importmap">
 {
   "imports": {
     "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
@@ -47,7 +81,7 @@
   }
 }
 </script>
-  <script type="module" crossorigin src="/assets/index-DLqJC6mJ.js"></script>
+  <script type="module" crossorigin src="/assets/index-BZIOsZyB.js"></script>
 </head>
   <body class="bg-slate-200 text-slate-800" style="background-image: radial-gradient(circle at top left, #e0f2fe, #f1f5f9, #e0f2fe);">
     <div id="root"></div>
